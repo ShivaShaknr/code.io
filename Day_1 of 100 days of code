@@ -2,7 +2,6 @@
 
 import java.util.*;
 public class Main {
-
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -15,11 +14,7 @@ public class Main {
         }
         int key = 1;
         BinarySearch(arr,key,0, arr.length-1);
-
-
-
-        
-    }
+   }
     public static void BinarySearch(int [] arr,int key,int low,int high){
         while(high>=low){
             int mid = low+(high-low)/2;
